@@ -161,8 +161,22 @@ body {
 /* Hero section */
 
 .hero-section {
-    background-color: var(--first-bg-color);
-    
+    /* background-color: var(--first-bg-color); */
+    max-width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+     background-image: linear-gradient(
+        to right, 
+       
+        rgba(46, 47, 66,0.7),
+        rgba(46, 47, 66,0.7)
+    ),  
+    url('../images/people-office.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .hero-container {
@@ -171,6 +185,13 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* .hero-bg {
+    max-width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 .hero-heading-box {
     max-width: 496px;
