@@ -449,7 +449,7 @@ body {
 .customer-icon {
     width: 104px;
     height: 56px;
-    fill: var(--customers-icon-color);
+    fill: var(--customers-icon-color); 
 }
 
 .customer-icon:is(:hover, :focus) {
