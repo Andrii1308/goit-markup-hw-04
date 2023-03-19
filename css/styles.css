@@ -444,15 +444,15 @@ body {
     height: 88px;
     border: 1px var(--customers-icon-color) solid;
     border-radius: 4px;
+    fill: var(--customers-icon-color);
 }
 
 .customer-icon {
     width: 104px;
     height: 56px;
-    fill: var(--customers-icon-color); 
 }
 
-.customer-icon:is(:hover, :focus) {
+.customer-link:is(:hover, :focus) {
     fill: var(--header-hover-color);
 }
 
