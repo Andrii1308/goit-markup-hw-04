@@ -444,15 +444,16 @@ body {
     height: 88px;
     border: 1px var(--customers-icon-color) solid;
     border-radius: 4px;
-    fill: var(--customers-icon-color);
+    color: var(--customers-icon-color);
 }
 
 .customer-icon {
     width: 104px;
     height: 56px;
+    fill: currentColor;
 }
 
-.customer-link:is(:hover, :focus) {
+.customer-icon:is(:hover, :focus) {
     fill: var(--header-hover-color);
 }
 
@@ -590,6 +591,7 @@ body {
 }
 
 .filter-item {
+    display: block;
     box-sizing: border-box;
     background: #FFFFFF;
     flex-basis: calc((100% - 48px)/3);
